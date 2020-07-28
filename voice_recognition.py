@@ -5,7 +5,7 @@ def main():
     r = sr.Recognizer()
     # obtain audio from the microphone
     with sr.Microphone() as source:
-        print('Gol chi 7ja ...')
+        print('Say something...')
         audio = r.listen(source)
     # recognize speech using Google Speech Recognition
     try:
